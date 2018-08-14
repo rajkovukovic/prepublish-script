@@ -1,0 +1,21 @@
+{
+  "name": "prepublish-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "node ./scripts/prepublish.js",
+    "build": "echo \"Fake build completed\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajkovukovic/prepublish-script.git"
+  },
+  "author": "Rajko Vukovic <rajkovukovic@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajkovukovic/prepublish-script/issues"
+  },
+  "homepage": "https://github.com/rajkovukovic/prepublish-script#readme"
+}
