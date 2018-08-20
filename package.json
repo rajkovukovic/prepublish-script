@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "prepublishOnly": "node ./scripts/pre-publish.js",
-    "prepublish": "node ./scripts/post-publish.js",
+    "postpublish": "node ./scripts/post-publish.js",
     "lint": "eslint scripts/**",
     "build": "echo \"Fake build completed\"",
     "t": "node ./scripts/test.js"
