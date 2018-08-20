@@ -1,0 +1,65 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "extends": ["node"],
+  "parserOptions": {
+    "ecmaVersion": 2015,
+    "ecmaFeatures": {
+      "classes": true,
+      "experimentalObjectRestSpread": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": ["babel"],
+  "rules": {
+    "arrow-body-style": ["error", "as-needed"],
+    "arrow-parens": ["error", "as-needed"],
+    "arrow-spacing": ["error", { "before": true, "after": true }],
+    "brace-style": ["error", "stroustrup"],
+    "comma-dangle": ["error", "always-multiline"],
+    "consistent-return": "error",
+    "eol-last": ["error", "always"],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/prefer-default-export": 0,
+    "indent": ["error", 2, { "ObjectExpression": 1 }],
+    "key-spacing": ["error", { "beforeColon": false, "afterColon": true }],
+    "no-confusing-arrow": "error",
+    "no-console": "error",
+    "no-else-return": "error",
+    "no-lonely-if": "error",
+    "no-multi-spaces": "error",
+    "no-tabs": "error",
+    "no-this-before-super": "error",
+    "no-trailing-spaces": "error",
+    "no-unneeded-ternary": "error",
+    "no-useless-computed-key": "error",
+    "no-var": "error",
+    "object-curly-newline": ["error", {
+      "ExportDeclaration": { "minProperties": 4, "multiline": true, "consistent": true },
+      "ImportDeclaration": { "minProperties": 4, "multiline": true, "consistent": true },
+      "ObjectExpression": { "minProperties": 4, "multiline": true, "consistent": true },
+      "ObjectPattern":{ "minProperties": 4, "multiline": true, "consistent": true }}
+    ],
+    "object-property-newline": "error",
+    "object-curly-spacing": "error",
+    "object-shorthand": "error",
+    "one-var-declaration-per-line": "error",
+    "operator-linebreak": ["error", "after"],
+    "prefer-arrow-callback": "error" ,
+    "quotes": ["error", "single"],
+    "react/destructuring-assignment": 0,
+    "rest-spread-spacing": ["error", "never"],
+    "semi": ["error", "never"],
+    "sort-keys": "error",
+    "sort-vars": "error",
+    "space-before-function-paren": ["error", "never"],
+    "space-in-parens": ["error", "never"],
+    "space-infix-ops": ["error", { "int32Hint": false }],
+    "space-unary-ops": "error",
+    "switch-colon-spacing": ["error", {"after": true, "before": false}],
+    "template-curly-spacing": ["error", "always"]
+  }
+}
